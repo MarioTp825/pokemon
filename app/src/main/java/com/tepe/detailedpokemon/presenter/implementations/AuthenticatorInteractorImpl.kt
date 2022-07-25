@@ -33,7 +33,7 @@ class AuthenticatorInteractorImpl(
                     return@addOnCompleteListener
                 }
             }.addOnFailureListener {
-                showError(it.message?:"Authentication unsuccessful, try again.", activity)
+                showError("Authentication unsuccessful, try again.", activity)
             }
     }
 
