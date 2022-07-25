@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_outline_home"
+        android:title="@string/lbl_nav_home"/>
+
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/ic_favorite_outline"
+        android:title="@string/lbl_nav_favorites"/>
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_outline_settings"
+        android:title="@string/lbl_nav_settings"/>
+
+
+</menu>
